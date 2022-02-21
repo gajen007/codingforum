@@ -1,0 +1,14 @@
+<script src="<?php echo base_url('public/vue/vue@3.2.2'); ?>" crossorigin="anonymous"></script>
+<style type="text/css">
+	body { 
+		background: url("<?php echo base_url('public/images/bg.jpg'); ?>") repeat; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+</style>
+<div class="card border-dark" style="margin:1%;position:absolute;top:7.5%;width:98%" id="mainDiv">
+	<div class="card-header" align="center"><input type="text" class="form-control" id="searchString" placeholder="Type heading here"/></div>
+    <div class="card-body"></div>
+</div>
